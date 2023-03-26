@@ -1,24 +1,14 @@
 # Autism-Detection-ML-Project
 
-Group members 
-
-Name
-Sec
-BN
-Habiba Mohamed Hanafy
-1
-25
-Zeiad Ayman Mohammed
-1
-31
-Omar Ayman Mohammed
-2
-2
-Yara Hossam El-Din Mostafa
-2
-48
 
 
+## Group members:
+Name | Sec | BN |   
+--- | --- | --- | 
+Habiba Mohamed | 1 | 25
+Zeiad Ayman | 1 | 31 
+Yara Hossam El-Din | 2 | 48
+Omar Ayman | 2| 2
 
 # Content (Final Designing Blocks For Our Model)
 ## Importing libraries and loading data
@@ -34,8 +24,28 @@ Yara Hossam El-Din Mostafa
 After importing the necessary libraries and models along with the metrics that we need to measure our performance, taking a look at our dataset reveals that some columns are completely irrelevant to our target. Said features can be dropped as a starter, such as “who completed the test” and “case number”.
 Also, to understand our data better, we need to know what the first 10 columns correspond to, which are the answers to 10 questions asked to the caregiver of the child to fill in the screening test.
 
+Variable in Dataset | Corresponding Q-chat-10-Toddler Features|  
+--- | --- |
+A1 |  Does your child look at you when you call his/her name?|
+A2 | How easy is it for you to get eye contact with your child? 
+ |
+A3 | Does your child point to indicate that s/he wants something? (e.g. a toy that is 
+out of reach)  |
+A4 | Does your child want to share interest with you? (e.g. pointing at an 
+interesting sight) |
+A5 | Does your child pretend? (e.g. care for dolls, talk on a toy phone) 
+|
+A6 | Does your child follow where you’re looking? 
+|
+A7 | If you or someone else in the family is visibly upset, does your child show signs 
+of wan9ng to comfort them? (e.g. stroking hair, hugging them)|
+A8 | Would you describe your child’s first words as: 
+|
+A9 | Does your child use simple gestures? (e.g. wave goodbye) 
+|
+A10 | Does your child stare at nothing with no apparent purpose? 
+|
 
-## Variable in Dataset
 Corresponding Q-chat-10-Toddler Features
 A1
  Does your child look at you when you call his/her name?
