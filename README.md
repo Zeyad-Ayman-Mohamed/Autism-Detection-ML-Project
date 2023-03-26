@@ -126,7 +126,6 @@ For the knn the k selected was 10 and the accuracy is considered good , with fal
 
 Metric | Log Reg | SVM | Tree | NB | KNN |       
 --- | --- | --- | --- | --- |
-Confusion matrix  | [ 94   1] [  1 221] | [ 39  56] [  1 221] | [ 85  10] [ 19 203] | [ 85  10] [ 10 212] | [ 88   7] [  8 214] |
 Score | 0.993 | 0.82  | 0.908 | 0.936 |0.952 |
 
 Log Reg
