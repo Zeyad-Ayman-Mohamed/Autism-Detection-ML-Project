@@ -125,8 +125,8 @@ For the knn the k selected was 10 and the accuracy is considered good , with fal
 ## The results 
 
 Metric | Log Reg | SVM | Tree | NB | KNN |       
---- | --- | --- | --- | --- |
-Score | 0.993 | 0.82  | 0.908 | 0.936 |0.952 |
+------ | --- --- | --- | ---- | -- | --- |
+Score | 0.993 | 0.82  | 0.908 | 0.936 |0.952 
 
 Log Reg
 SVM
