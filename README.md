@@ -20,7 +20,7 @@ Yara Hossam El-Din Mostafa
 
 
 
-## Content (Final Designing Blocks For Our Model)
+# Content (Final Designing Blocks For Our Model)
 # Importing libraries and loading data
 # Data Wrangling (outliers and duplicates)
 # Exploring and visualizing our dataset
