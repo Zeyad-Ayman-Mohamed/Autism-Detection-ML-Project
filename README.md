@@ -53,7 +53,9 @@ Now, we start exploring our features and measuring their relevance to our label.
 First, we plot bar charts of categorical features we have such as: sex, jaundice, wheteher one of the parents have ASD. 
 We find out that:
 
+![alt text][fig1]
 
+[fig1]:https://github.com/Zeyad-Ayman-Mohamed/Autism-Detection-ML-Project/blob/main/images/AD_fig1.png
 
 
 
@@ -65,15 +67,25 @@ For gender, our data has around 735 males and 319 females.
  While for jaundice, there are 288 of the records who were diagnosed and 766 healthy people. 
 Also around 170 of the tested cases have a family member with ASD symptoms while approximately 884 don’t.
 
+![alt text][fig2]
+
+[fig2]:https://github.com/Zeyad-Ayman-Mohamed/Autism-Detection-ML-Project/blob/main/images/AD_fig2.png
+
 
 For Ethnicity, the most prominent one is white european,followed by asians and middle easterns, with lowest count to native indians. 
 
+![alt text][fig3]
+
+[fig3]:https://github.com/Zeyad-Ayman-Mohamed/Autism-Detection-ML-Project/blob/main/images/AD_fig3.png
 
 Next, for the numerical features (only age is numerical in our dataset), we plot a histogram to visualize the presence of different ages in our dataset. 
 Which results in the following observations:
 Most common age in our dataset is 36 months
  while the rarest is 17 monthsNote: dataset was collected with kids as the target audience. With the goal of predicting ASD in children.
 
+![alt text][fig4]
+
+[fig4]:https://github.com/Zeyad-Ayman-Mohamed/Autism-Detection-ML-Project/blob/main/images/AD_fig4.png
 
 Finally, we use a heatmap to plot the correlation between different columns in our dataset. 
 Our main focus is to identify the features with insignificant correlation with our label, hence we can drop them to get rid of irrelevant info. Or features with way too high correlation that might be leaking info to the model.
