@@ -128,29 +128,25 @@ Metric| Log Reg| SVM| Tree| NB| KNN|
 --- | --- | --- | --- | --- | ---  |
 Score | 0.993 | 0.82  | 0.908 | 0.936 |0.952 
 
-Log Reg
-SVM
-Tree
-NB
-KNN
-Confusion
-matrix
+
+Confusion matrix: 
+log Reg
 [ 94   1]
 [  1 221]
 
-
+SVM
 [ 39  56]
 [  1 221]
 
-
+Tree
 [ 85  10]
 [ 19 203]
 
-
+NB
 [ 85  10]
 [ 10 212]
 
-
+KNN
 [ 88   7]
 [  8 214]
 
